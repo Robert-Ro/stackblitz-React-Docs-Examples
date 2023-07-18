@@ -7,7 +7,8 @@ import { createRoot } from 'react-dom/client';
 // fadeIn examples
 // import App from './hooks/fade-in/without-hook/example1';
 // import App from './hooks/fade-in/with-hook/example1';
-import App from './hooks/fade-in/with-hook/example2';
+// import App from './hooks/fade-in/with-hook/example2';
+import App from './hooks/pointer-following';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
