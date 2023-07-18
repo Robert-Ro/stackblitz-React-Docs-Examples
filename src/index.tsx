@@ -10,6 +10,7 @@ import { createRoot } from 'react-dom/client';
 // import App from './hooks/fade-in/with-hook/example2';
 import App1 from './hooks/pointer-following';
 import App2 from './hooks/pointer-following/index2';
+import App3 from './hooks/counter/app';
 
 const rootElement = document.getElementById('root');
 const root = createRoot(rootElement);
@@ -22,5 +23,6 @@ root.render(
     <div style={{ width: '100%', height: 300 }}>
       <App2 />
     </div>
+    <App3 />
   </StrictMode>
 );
