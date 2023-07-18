@@ -1,5 +1,6 @@
 import * as React from 'react';
-import { useFadeIn } from './useFadeIn';
+// import { useFadeIn } from './useFadeIn';
+import { useFadeIn } from './useFadeIn2';
 import './welcome.css';
 
 const Welcome = () => {
