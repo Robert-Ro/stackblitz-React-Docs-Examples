@@ -5,7 +5,7 @@ import { createRoot } from 'react-dom/client';
 // import App from './storage';
 // import App from './network';
 // fadeIn examples
-// import App from './hooks/fade-in/without-hook/app';
+// import App from './hooks/fade-in/without-hook/example1';
 // import App from './hooks/fade-in/with-hook/example1';
 import App from './hooks/fade-in/with-hook/example2';
 
