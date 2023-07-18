@@ -15,14 +15,14 @@ const Dot = ({
   return (
     <div
       style={{
-        width: 48,
-        height: 48,
+        width: 40,
+        height: 40,
         borderRadius: '50%',
         position: 'absolute',
         transform: `translate(${position?.x || 0}px, ${position?.y || 0}px)`,
         pointerEvents: 'none',
-        left: -24,
-        top: -24,
+        left: -20,
+        top: -20,
         background: '#ff9500',
         opacity,
       }}
