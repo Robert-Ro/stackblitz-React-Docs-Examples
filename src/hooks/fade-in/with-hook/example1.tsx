@@ -1,4 +1,5 @@
 import * as React from 'react';
+import './welcome.css';
 
 const Welcome = () => {
   const ref = React.useRef<HTMLDivElement | null>(null);

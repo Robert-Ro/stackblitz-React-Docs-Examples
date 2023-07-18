@@ -22,6 +22,7 @@ export const useFadeIn = (
       }
     }
     function onProgress(progress: number) {
+      console.log(progress);
       node.style.opacity = `${progress}`;
     }
     function start() {
